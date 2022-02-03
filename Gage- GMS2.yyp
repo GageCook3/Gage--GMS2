@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Parallax_Control","path":"objects/Parallax_Control/Parallax_Control.yy",},"order":5,},
     {"id":{"name":"hud_sprite","path":"sprites/hud_sprite/hud_sprite.yy",},"order":4,},
     {"id":{"name":"Coin","path":"objects/Coin/Coin.yy",},"order":3,},
+    {"id":{"name":"Ground_Art","path":"sprites/Ground_Art/Ground_Art.yy",},"order":7,},
     {"id":{"name":"PlayerHurt","path":"scripts/PlayerHurt/PlayerHurt.yy",},"order":0,},
     {"id":{"name":"coin_sprite","path":"sprites/coin_sprite/coin_sprite.yy",},"order":1,},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},"order":0,},

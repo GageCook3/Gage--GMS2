@@ -5,6 +5,7 @@
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
+hit = keyboard_check_pressed(ord("E"));
 xDirection = right - left;
 
 xVector = xDirection * xSpeed;
@@ -42,4 +43,11 @@ if(place_meeting(x, y+1, Ground) and (jump))
  if (y >= room_height)
  {
 	room_restart()
+ }
+ 
+ if(hit)
+ {
+	
+	
+	
  }
