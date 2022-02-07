@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "enemy_sprite",
-    "path": "sprites/enemy_sprite/enemy_sprite.yy",
+    "name": "Clouds_spite",
+    "path": "sprites/Clouds_spite/Clouds_spite.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Enemy",
+  "name": "Clouds",
   "tags": [],
   "resourceType": "GMObject",
 }
