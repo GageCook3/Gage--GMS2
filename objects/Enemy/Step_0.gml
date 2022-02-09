@@ -1,15 +1,12 @@
 /// @description Insert description here
-// You can write your code in this editor
-	yVector = yVector + yGravity;
+// You can write your code in this 
+xVector = xDirection * xSpeed;
+yVector = yVector + yGravity;
 if (place_meeting(x+xVector, y, Ground))
 {
-	while (!place_meeting(x+xDirection, y, Ground))
-	{
-		xDirection = -xDirection;
-	}
-	xVector = 0;
+	turnTimer = 2;
+	xDirection = -xDirection;
 }
-
 x = x + xVector;
 //sign(yVector) will =1 is yVector is positive or -1 if negative.
 if (place_meeting(x, y+yVector, Ground))
@@ -21,7 +18,16 @@ if (place_meeting(x, y+yVector, Ground))
 	yVector = 0;
 }
 
+
 y = y + yVector;
+
+
+turnTimer -=1/room_speed;
+if (turnTimer < 0)
+{
+	turnTimer = 2;
+	xDirection = -xDirection;
+}
 
 
 
