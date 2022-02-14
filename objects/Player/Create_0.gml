@@ -7,7 +7,6 @@ xDirection = 0;
 
 //pixels/frame player moves
 xSpeed = 4;
-
 xVector = xDirection * xSpeed;
 yGravity = .75;
 yVector = 0;

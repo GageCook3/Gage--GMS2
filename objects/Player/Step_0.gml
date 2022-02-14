@@ -5,7 +5,7 @@
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
-hit = keyboard_check_pressed(ord("E"));
+hit = mouse_check_button(mb_left)
 xDirection = right - left;
 
 xVector = xDirection * xSpeed;
@@ -47,7 +47,11 @@ if(place_meeting(x, y+1, Ground) and (jump))
  
  if(hit)
  {
-	
-	
-	
+	sprite_index = Spr_Change_Test
  }
+	else
+	 {
+	sprite_index = player_sprite
+	 }
+
+ 

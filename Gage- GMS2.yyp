@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Parallax_Control","path":"objects/Parallax_Control/Parallax_Control.yy",},"order":5,},
+    {"id":{"name":"Spr_Change_Test","path":"sprites/Spr_Change_Test/Spr_Change_Test.yy",},"order":10,},
     {"id":{"name":"hud_sprite","path":"sprites/hud_sprite/hud_sprite.yy",},"order":4,},
     {"id":{"name":"Coin","path":"objects/Coin/Coin.yy",},"order":3,},
     {"id":{"name":"Ground_Art","path":"sprites/Ground_Art/Ground_Art.yy",},"order":7,},
@@ -12,7 +13,8 @@
     {"id":{"name":"BG_sky","path":"sprites/BG_sky/BG_sky.yy",},"order":5,},
     {"id":{"name":"Clouds","path":"objects/Clouds/Clouds.yy",},"order":6,},
     {"id":{"name":"player_sprite","path":"sprites/player_sprite/player_sprite.yy",},"order":0,},
-    {"id":{"name":"Trees_back","path":"sprites/Trees_back/Trees_back.yy",},"order":15,},
+    {"id":{"name":"SpriteChange","path":"objects/SpriteChange/SpriteChange.yy",},"order":7,},
+    {"id":{"name":"Trees_back","path":"sprites/Trees_back/Trees_back.yy",},"order":9,},
     {"id":{"name":"PlayerDeath","path":"scripts/PlayerDeath/PlayerDeath.yy",},"order":1,},
     {"id":{"name":"Clouds_spite","path":"sprites/Clouds_spite/Clouds_spite.yy",},"order":8,},
     {"id":{"name":"BG_trees","path":"sprites/BG_trees/BG_trees.yy",},"order":6,},
@@ -58,6 +60,8 @@
   ],
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":false,"border":8,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"texturegroup1","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"texturegroup2","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
