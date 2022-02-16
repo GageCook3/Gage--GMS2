@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_Change_Test",
-    "path": "sprites/Spr_Change_Test/Spr_Change_Test.yy",
+    "name": "Hit_Sprite",
+    "path": "sprites/Hit_Sprite/Hit_Sprite.yy",
   },
   "solid": false,
   "visible": true,

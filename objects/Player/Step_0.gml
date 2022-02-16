@@ -5,7 +5,7 @@
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
-hit = mouse_check_button(mb_left)
+Hit() = mouse_check_button_pressed(mb_left)
 xDirection = right - left;
 
 xVector = xDirection * xSpeed;
@@ -45,9 +45,9 @@ if(place_meeting(x, y+1, Ground) and (jump))
 	room_restart()
  }
  
- if(hit)
+ if Hit()
  {
-	sprite_index = Spr_Change_Test
+	sprite_index = Hit_Sprite
  }
 	else
 	 {

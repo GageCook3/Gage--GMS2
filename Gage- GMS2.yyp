@@ -1,7 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"Script3","path":"scripts/Script3/Script3.yy",},"order":2,},
     {"id":{"name":"Parallax_Control","path":"objects/Parallax_Control/Parallax_Control.yy",},"order":5,},
-    {"id":{"name":"Spr_Change_Test","path":"sprites/Spr_Change_Test/Spr_Change_Test.yy",},"order":10,},
+    {"id":{"name":"Hit_Sprite","path":"sprites/Hit_Sprite/Hit_Sprite.yy",},"order":10,},
     {"id":{"name":"hud_sprite","path":"sprites/hud_sprite/hud_sprite.yy",},"order":4,},
     {"id":{"name":"Coin","path":"objects/Coin/Coin.yy",},"order":3,},
     {"id":{"name":"Ground_Art","path":"sprites/Ground_Art/Ground_Art.yy",},"order":7,},
