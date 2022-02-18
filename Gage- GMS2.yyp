@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"Script3","path":"scripts/Script3/Script3.yy",},"order":2,},
     {"id":{"name":"Parallax_Control","path":"objects/Parallax_Control/Parallax_Control.yy",},"order":5,},
     {"id":{"name":"Hit_Sprite","path":"sprites/Hit_Sprite/Hit_Sprite.yy",},"order":10,},
     {"id":{"name":"hud_sprite","path":"sprites/hud_sprite/hud_sprite.yy",},"order":4,},
@@ -14,7 +13,6 @@
     {"id":{"name":"BG_sky","path":"sprites/BG_sky/BG_sky.yy",},"order":5,},
     {"id":{"name":"Clouds","path":"objects/Clouds/Clouds.yy",},"order":6,},
     {"id":{"name":"player_sprite","path":"sprites/player_sprite/player_sprite.yy",},"order":0,},
-    {"id":{"name":"SpriteChange","path":"objects/SpriteChange/SpriteChange.yy",},"order":7,},
     {"id":{"name":"Trees_back","path":"sprites/Trees_back/Trees_back.yy",},"order":9,},
     {"id":{"name":"PlayerDeath","path":"scripts/PlayerDeath/PlayerDeath.yy",},"order":1,},
     {"id":{"name":"Clouds_spite","path":"sprites/Clouds_spite/Clouds_spite.yy",},"order":8,},
