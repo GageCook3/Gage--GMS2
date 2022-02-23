@@ -1,11 +1,15 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-//movement variables
+/// @description
 // direction facing. 1 right, -1 left, 0 not moving.
-xDirection = 0;
+enum states
+{
+walking,
+jumping,
+melee,
+}
+state = states.walking;
 
 //pixels/frame player moves
+xDirection = 0;
 xSpeed = 4;
 xVector = xDirection * xSpeed;
 yGravity = .75;
