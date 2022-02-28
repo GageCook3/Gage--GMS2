@@ -1,18 +1,8 @@
 /// @description Insert description here
-if (state = states.walking)
-{
-StatePlayerWalking();
-}
+script_execute(state_array[state]);
 
-if (state = states.jumping)
-{
-StatePlayerJumping();
-}
+sprite_index = sprite_array[state];
 
-if (state = states.melee)
-{
-StatePlayerMelee();
-}
 
 if (y >= room_height)
  {

@@ -1,5 +1,10 @@
 // Script assets have changed for v2.3.0 see
-function StatePlayerMelee()
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function StatePlayerMelee() 
 {
-sprite_index = Hit_Sprite;
+if (xDirection != 0)
+{
+	image_xscale = xDirection;
+}
+
 }
