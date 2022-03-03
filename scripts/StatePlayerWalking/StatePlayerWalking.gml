@@ -3,21 +3,16 @@
 function StatePlayerWalking()
 {
 CheckInputs();
-xDirection = right - left;
+
+MoveX();
+MoveY();
 if (xDirection != 0)
 {
 image_xscale = xDirection;
 }
 
-xVector = xSpeed * xDirection;
-CheckCollisionsX();
-x = x + xVector;
-yVector = yVector + yGravity;
-CheckCollisionsY();
-y = y + yVector;
-	//condition to exit
-	if(place_meeting(x, y+1, Ground) and (jump))
+if (xDirection == 0)
 	{
-	state = states.jumping
+	state = states.idle;
 	}
 }

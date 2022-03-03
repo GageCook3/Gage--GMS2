@@ -5,19 +5,19 @@ enum states
 walking,
 jumping,
 melee,
-
+idle,
 }
 
 state_array[states.walking] = StatePlayerWalking;
 state_array[states.jumping] = StatePlayerJumping;
 state_array[states.melee] = StatePlayerMelee;
+state_array[states.idle] = StatePlayerIdle;
 
-sprite_array[states.walking] = player_sprite;
-sprite_array[states.jumping] = Jump_Sprite;
-
-
-
-state = states.walking;
+sprite_array[states.walking] = player_Walking;
+sprite_array[states.jumping] = player_Jump;
+sprite_array[states.idle] = player_Idle;
+canJump = true;
+state = states.idle;
 xDirection = 0;
 xSpeed = 4;
 xVector = xDirection * xSpeed;
