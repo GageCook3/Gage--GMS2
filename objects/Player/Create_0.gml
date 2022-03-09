@@ -15,7 +15,9 @@ state_array[states.idle] = StatePlayerIdle;
 
 sprite_array[states.walking] = player_Walking;
 sprite_array[states.jumping] = player_Jump;
+sprite_array[states.melee] = player_Melee;
 sprite_array[states.idle] = player_Idle;
+
 canJump = true;
 state = states.idle;
 xDirection = 0;

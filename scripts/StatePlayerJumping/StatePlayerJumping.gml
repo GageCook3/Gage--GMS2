@@ -4,11 +4,12 @@ function StatePlayerJumping()
 {
 	if(canJump)
 	{
-	yVector = jumpForce;
 	canJump = false;
+	yVector = jumpForce;
 	}
 	MoveX();
 	MoveY();
+	
 if (xDirection != 0)
 {
 	image_xscale = xDirection;
@@ -17,6 +18,7 @@ if (xDirection != 0)
 //condition to exit state
 	if(place_meeting(x, y+1, Ground))
 	{
+	canJump = true;
 	state = states.walking;
 	}
 	

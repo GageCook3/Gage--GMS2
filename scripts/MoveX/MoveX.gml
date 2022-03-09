@@ -2,6 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function MoveX()
 {
+CheckInputs();
+xDirection = right - left;
+
+if (xDirection !=0)
+{
+image_xscale = xDirection;
+}
 xVector = xSpeed * xDirection;
 CheckCollisionsX();
 x = x + xVector;

@@ -4,7 +4,7 @@ function CheckInputs()
 {
 right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
-jump = keyboard_check_pressed(vk_space);
+jump = keyboard_check(vk_space);
 melee = mouse_check_button(mb_left);
 xDirection = right - left;
 }

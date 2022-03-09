@@ -15,4 +15,10 @@ if (xDirection == 0)
 	{
 	state = states.idle;
 	}
+	
+	if(place_meeting(x, y+1, Ground) and (jump))
+	{
+	state = states.jumping;
+	}
+	
 }

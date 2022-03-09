@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 3000,
-  "height": 768,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"67f465d7-65bb-41da-820a-fb9499aebc7e","path":"sprites/Ground_Art/Ground_Art.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"67f465d7-65bb-41da-820a-fb9499aebc7e","path":"sprites/Ground_Art/Ground_Art.yy",},"LayerId":{"name":"558b9b01-95d0-4e74-a638-6df6ce1a55af","path":"sprites/Ground_Art/Ground_Art.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Ground_Art","path":"sprites/Ground_Art/Ground_Art.yy",},"resourceVersion":"1.0","name":"67f465d7-65bb-41da-820a-fb9499aebc7e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ea4db9ef-aefa-4646-bd02-7857f7c6133d","path":"sprites/player_Melee/player_Melee.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ea4db9ef-aefa-4646-bd02-7857f7c6133d","path":"sprites/player_Melee/player_Melee.yy",},"LayerId":{"name":"0bff999e-8e26-4cfe-9d8f-3c94273f0323","path":"sprites/player_Melee/player_Melee.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"player_Melee","path":"sprites/player_Melee/player_Melee.yy",},"resourceVersion":"1.0","name":"ea4db9ef-aefa-4646-bd02-7857f7c6133d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Ground_Art","path":"sprites/Ground_Art/Ground_Art.yy",},
+    "spriteId": {"name":"player_Melee","path":"sprites/player_Melee/player_Melee.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"71537faa-48f5-4711-a30a-8e6c7c00c6de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"67f465d7-65bb-41da-820a-fb9499aebc7e","path":"sprites/Ground_Art/Ground_Art.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"90473d8d-38db-4e53-b36f-e60f8f83b184","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea4db9ef-aefa-4646-bd02-7857f7c6133d","path":"sprites/player_Melee/player_Melee.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Ground_Art","path":"sprites/Ground_Art/Ground_Art.yy",},
+    "parent": {"name":"player_Melee","path":"sprites/player_Melee/player_Melee.yy",},
     "resourceVersion": "1.3",
-    "name": "Ground_Art",
+    "name": "player_Melee",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"558b9b01-95d0-4e74-a638-6df6ce1a55af","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0bff999e-8e26-4cfe-9d8f-3c94273f0323","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Ground_Art",
+  "name": "player_Melee",
   "tags": [],
   "resourceType": "GMSprite",
 }

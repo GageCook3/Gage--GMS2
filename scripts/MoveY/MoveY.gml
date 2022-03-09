@@ -3,6 +3,6 @@
 function MoveY()
 {
 yVector = yVector + yGravity;
-	CheckCollisionsY();
+CheckCollisionsY();
 y = y + yVector;
 }
