@@ -6,18 +6,22 @@ walking,
 jumping,
 melee,
 idle,
+sprint,
 }
 
 state_array[states.walking] = StatePlayerWalking;
 state_array[states.jumping] = StatePlayerJumping;
 state_array[states.melee] = StatePlayerMelee;
 state_array[states.idle] = StatePlayerIdle;
+state_array[states.sprint] = StatePlayerSprint;
 
 sprite_array[states.walking] = player_Walking;
 sprite_array[states.jumping] = player_Jump;
 sprite_array[states.melee] = player_Melee;
 sprite_array[states.idle] = player_Idle;
+sprite_array[states.sprint] = player_Sprint;
 
+sprint = false;
 canJump = true;
 state = states.idle;
 xDirection = 0;

@@ -6,5 +6,6 @@ right = keyboard_check(ord("D"));
 left = keyboard_check(ord("A"));
 jump = keyboard_check(vk_space);
 melee = mouse_check_button(mb_left);
+sprint = keyboard_check(vk_shift);
 xDirection = right - left;
 }

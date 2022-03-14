@@ -1,15 +1,19 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function StatePlayerWalking()
+function StatePlayerSprint()
 {
+	if(!sprint)
+	{
+	sprint = true;
+	}
 CheckInputs();
-
 MoveX();
 MoveY();
 if (xDirection != 0)
 {
 image_xscale = xDirection;
 }
+
 
 if (xDirection == 0)
 	{
@@ -20,8 +24,4 @@ if (xDirection == 0)
 	{
 	state = states.jumping;
 	}
-if((sprint and left) or (sprint and right))
-{
-state = states.sprint
-}
 }
