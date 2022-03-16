@@ -6,7 +6,7 @@ sprite_index = sprite_array[state];
 
 if (y >= room_height)
  {
-	room_restart()
+	PlayerDeath()
  }
  
 

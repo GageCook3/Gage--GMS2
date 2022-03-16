@@ -22,8 +22,10 @@
     {"id":{"name":"MoveX","path":"scripts/MoveX/MoveX.yy",},"order":7,},
     {"id":{"name":"PlayerDeath","path":"scripts/PlayerDeath/PlayerDeath.yy",},"order":1,},
     {"id":{"name":"Clouds_spite","path":"sprites/Clouds_spite/Clouds_spite.yy",},"order":8,},
+    {"id":{"name":"RoomRestartControl","path":"objects/RoomRestartControl/RoomRestartControl.yy",},"order":7,},
     {"id":{"name":"player_Sprint","path":"sprites/player_Sprint/player_Sprint.yy",},"order":13,},
     {"id":{"name":"StatePlayerSprint","path":"scripts/StatePlayerSprint/StatePlayerSprint.yy",},"order":10,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"BG_trees","path":"sprites/BG_trees/BG_trees.yy",},"order":6,},
     {"id":{"name":"StatePlayerIdle","path":"scripts/StatePlayerIdle/StatePlayerIdle.yy",},"order":9,},
     {"id":{"name":"HUD","path":"objects/HUD/HUD.yy",},"order":4,},
@@ -47,6 +49,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

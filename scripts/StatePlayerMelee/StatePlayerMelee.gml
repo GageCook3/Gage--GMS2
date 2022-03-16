@@ -7,4 +7,6 @@ if (xDirection != 0)
 	image_xscale = xDirection;
 }
 
+
+
 }
