@@ -4,7 +4,14 @@ function MoveX()
 {
 CheckInputs();
 xDirection = right - left;
-
+if(sprint)
+{
+xSpeed = 6;
+}
+if (!sprint)
+{
+xSpeed = 4;
+}
 if (xDirection !=0)
 {
 image_xscale = xDirection;
