@@ -3,7 +3,7 @@
 if (y<=other.y -other.sprite_height*.9)
 {
 	instance_destroy(other);
-	global.points += 300;
+	global.points += 200;
 	yVector = jumpForce/2
 }
 else
