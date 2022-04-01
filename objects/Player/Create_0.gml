@@ -7,6 +7,7 @@ jumping,
 melee,
 idle,
 sprint,
+enter,
 }
 
 state_array[states.walking] = StatePlayerWalking;
@@ -14,12 +15,14 @@ state_array[states.jumping] = StatePlayerJumping;
 state_array[states.melee] = StatePlayerMelee;
 state_array[states.idle] = StatePlayerIdle;
 state_array[states.sprint] = StatePlayerSprint;
+state_array[states.enter] = StatePlayerEnter();
 
 sprite_array[states.walking] = player_Walking;
 sprite_array[states.jumping] = player_Jump;
 sprite_array[states.melee] = player_Melee;
 sprite_array[states.idle] = player_Idle;
 sprite_array[states.sprint] = player_Sprint;
+sprite_array[states.enter] = player_Enter
 
 sprint = false;
 canJump = true;

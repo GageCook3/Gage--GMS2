@@ -8,4 +8,5 @@ jump = keyboard_check(vk_space);
 melee = mouse_check_button(mb_left);
 sprint = keyboard_check(vk_shift);
 xDirection = right - left;
+enter = keyboard_check(ord("W"));
 }

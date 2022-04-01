@@ -10,12 +10,12 @@
   "bbox_left": 0,
   "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 149,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 64,
-  "height": 64,
+  "height": 150,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"725122ac-14ac-49bc-850c-3d7621da5d26","path":"sprites/lightTest/lightTest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"725122ac-14ac-49bc-850c-3d7621da5d26","path":"sprites/lightTest/lightTest.yy",},"LayerId":{"name":"f94a7a39-1a10-459c-aa64-6299fda1307f","path":"sprites/lightTest/lightTest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"lightTest","path":"sprites/lightTest/lightTest.yy",},"resourceVersion":"1.0","name":"725122ac-14ac-49bc-850c-3d7621da5d26","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9049f359-aea2-46a0-aa8c-e6f5819b5f24","path":"sprites/Door/Door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9049f359-aea2-46a0-aa8c-e6f5819b5f24","path":"sprites/Door/Door.yy",},"LayerId":{"name":"558da48b-cf54-4ae6-867b-6275b9daeba6","path":"sprites/Door/Door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Door","path":"sprites/Door/Door.yy",},"resourceVersion":"1.0","name":"9049f359-aea2-46a0-aa8c-e6f5819b5f24","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"lightTest","path":"sprites/lightTest/lightTest.yy",},
+    "spriteId": {"name":"Door","path":"sprites/Door/Door.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5cd89ce3-5775-4ecf-a003-f494112f653d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"725122ac-14ac-49bc-850c-3d7621da5d26","path":"sprites/lightTest/lightTest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36f5b7f8-2539-45e4-9264-67e7c42c5e73","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9049f359-aea2-46a0-aa8c-e6f5819b5f24","path":"sprites/Door/Door.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"lightTest","path":"sprites/lightTest/lightTest.yy",},
+    "parent": {"name":"Door","path":"sprites/Door/Door.yy",},
     "resourceVersion": "1.3",
-    "name": "lightTest",
+    "name": "Door",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f94a7a39-1a10-459c-aa64-6299fda1307f","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"558da48b-cf54-4ae6-867b-6275b9daeba6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "lightTest",
+  "name": "Door",
   "tags": [],
   "resourceType": "GMSprite",
 }
