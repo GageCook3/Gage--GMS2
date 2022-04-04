@@ -24,4 +24,8 @@ if((sprint and left) or (sprint and right))
 {
 state = states.sprint
 }
+if ((place_meeting(x,y,oDoor)) and (enter))
+		{
+		state = states.enter
+		}
 }

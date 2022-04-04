@@ -9,7 +9,7 @@ function CheckCollisionsX()
 		x = x + xDirection;
 		}
 	xVector = 0;
-	}
+		}
 }
 
 function CheckCollisionsY()

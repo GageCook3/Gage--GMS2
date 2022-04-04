@@ -8,10 +8,13 @@ function StatePlayerIdle()
 	{
 	state = states.walking;
 	}
-//condition to exit state
 	if(place_meeting(x, y+1, Ground) and (jump))
 	{
 	state = states.jumping;
+	}
+	if ((place_meeting(x,y,oDoor)) and (enter))
+	{
+	state = states.enter
 	}
 
 }

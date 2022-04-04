@@ -30,7 +30,8 @@
     {"id":{"name":"RoomRestartControl","path":"objects/RoomRestartControl/RoomRestartControl.yy",},"order":7,},
     {"id":{"name":"Ssmall_red_block","path":"sprites/Ssmall_red_block/Ssmall_red_block.yy",},"order":15,},
     {"id":{"name":"player_Sprint","path":"sprites/player_Sprint/player_Sprint.yy",},"order":13,},
-    {"id":{"name":"playerEnter","path":"sprites/playerEnter/playerEnter.yy",},"order":18,},
+    {"id":{"name":"player_Enter","path":"sprites/player_Enter/player_Enter.yy",},"order":18,},
+    {"id":{"name":"house","path":"rooms/house/house.yy",},"order":2,},
     {"id":{"name":"StatePlayerSprint","path":"scripts/StatePlayerSprint/StatePlayerSprint.yy",},"order":10,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Sred_block","path":"sprites/Sred_block/Sred_block.yy",},"order":14,},
@@ -39,6 +40,7 @@
     {"id":{"name":"HUD","path":"objects/HUD/HUD.yy",},"order":4,},
     {"id":{"name":"enemy_sprite","path":"sprites/enemy_sprite/enemy_sprite.yy",},"order":2,},
     {"id":{"name":"player_Melee","path":"sprites/player_Melee/player_Melee.yy",},"order":12,},
+    {"id":{"name":"sInteriorHouse","path":"sprites/sInteriorHouse/sInteriorHouse.yy",},"order":19,},
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -58,6 +60,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"house","path":"rooms/house/house.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
