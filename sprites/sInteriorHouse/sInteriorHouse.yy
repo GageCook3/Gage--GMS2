@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 449,
+  "bbox_right": 553,
   "bbox_top": 0,
   "bbox_bottom": 349,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 450,
+  "width": 554,
   "height": 350,
   "textureGroupId": {
     "name": "Default",
@@ -42,7 +42,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"c4a27b5c-0126-40f2-be59-4dddb414cf5b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12918a41-8ace-449a-ac17-0a094bcbd210","path":"sprites/sInteriorHouse/sInteriorHouse.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sInteriorHouse","path":"sprites/sInteriorHouse/sInteriorHouse.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sInteriorHouse",
     "tags": [],
     "resourceType": "GMSequence",

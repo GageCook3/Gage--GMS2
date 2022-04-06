@@ -2,5 +2,5 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function PlayerDeath()
 {
-room_goto(0);
+room_goto(death);
 }
