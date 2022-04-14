@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 11,
-  "bbox_top": 8,
-  "bbox_bottom": 17,
+  "bbox_right": 25,
+  "bbox_top": 15,
+  "bbox_bottom": 35,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 18,
-  "height": 18,
+  "width": 36,
+  "height": 36,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","path":"sprites/Sprite18/Sprite18.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","path":"sprites/Sprite18/Sprite18.yy",},"LayerId":{"name":"46c2686b-59b0-4a77-a8f0-830ef1a686a2","path":"sprites/Sprite18/Sprite18.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"resourceVersion":"1.0","name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","path":"sprites/bird/bird.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","path":"sprites/bird/bird.yy",},"LayerId":{"name":"46c2686b-59b0-4a77-a8f0-830ef1a686a2","path":"sprites/bird/bird.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"bird","path":"sprites/bird/bird.yy",},"resourceVersion":"1.0","name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},
+    "spriteId": {"name":"bird","path":"sprites/bird/bird.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"a51c0ef3-78f7-40d5-9bf2-d7e54355a527","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","path":"sprites/Sprite18/Sprite18.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a51c0ef3-78f7-40d5-9bf2-d7e54355a527","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"de7493c3-38ba-4f31-9e78-fdf5491c4f9d","path":"sprites/bird/bird.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},
+    "parent": {"name":"bird","path":"sprites/bird/bird.yy",},
     "resourceVersion": "1.4",
-    "name": "Sprite18",
+    "name": "bird",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite18",
+  "name": "bird",
   "tags": [],
   "resourceType": "GMSprite",
 }
